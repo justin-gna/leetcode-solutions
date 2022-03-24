@@ -5,6 +5,7 @@
 # loop through the list and calculate the number that must be added to the current number to get the target sum.
 # then check if this required number in the dictionary of all the numbers that have already been seen in the list.
 # since there is always exactly one answer the function will always eventually return the indexes of the numbers that add up to the target.
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         seen_nums = {}
