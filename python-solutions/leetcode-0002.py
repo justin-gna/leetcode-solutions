@@ -10,6 +10,7 @@
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
+
 def linked_list_to_num(lst: ListNode) -> int:
     number = ''
     curr = lst
